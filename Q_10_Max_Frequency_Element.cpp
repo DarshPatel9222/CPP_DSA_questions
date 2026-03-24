@@ -18,6 +18,6 @@ int main(){
         }
     }
 
-    cout<<"Element: "<<element<<endl;
+    cout<<"Highest Frequency Element: "<<element<<endl;
     cout<<"Frequency: "<<maxFreq<<endl;
 }
