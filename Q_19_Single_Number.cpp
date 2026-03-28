@@ -14,7 +14,7 @@ int main(){
         }
 
         if(count==1){
-            cout<<"Single number: "<< arr[i];
+            cout<<"Single Number: "<< arr[i];
             break;
         }
     }
