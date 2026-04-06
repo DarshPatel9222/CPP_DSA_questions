@@ -15,6 +15,6 @@ int main(){
         }
     }
 
-    cout<<"Even = "<<even<<endl;
-    cout<<"Odd = "<<odd<<endl;
+    cout<<"Even= "<<even<<endl;
+    cout<<"Odd= "<<odd<<endl;
 }
