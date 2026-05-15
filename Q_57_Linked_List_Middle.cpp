@@ -16,13 +16,11 @@ ListNode* middleNode(ListNode* head) {
     int count = 0;
     ListNode* temp = head;
 
-    // Count nodes
     while (temp != NULL) {
         count++;
         temp = temp->next;
     }
 
-    // Move to middle
     temp = head;
 
     for (int i = 0; i < count / 2; i++) {
@@ -34,7 +32,6 @@ ListNode* middleNode(ListNode* head) {
 
 int main() {
 
-    // 1 -> 2 -> 3 -> 4 -> 5
     ListNode* head = new ListNode(1);
     head->next = new ListNode(2);
     head->next->next = new ListNode(3);
