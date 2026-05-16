@@ -14,12 +14,10 @@ public:
     }
 };
 
-// Insert after position p
 void insert(Node*& head, int p, int x) {
 
     Node* newNode = new Node(x);
 
-    // Case: insert after 0th node
     if (p == 0) {
         newNode->next = head;
 
@@ -33,14 +31,12 @@ void insert(Node*& head, int p, int x) {
 
     Node* temp = head;
 
-    // Move to p-th node
     for (int i = 1; i < p && temp != NULL; i++) {
         temp = temp->next;
     }
 
     if (temp == NULL) return;
 
-    // Insert node
     newNode->next = temp->next;
     newNode->prev = temp;
 
@@ -51,7 +47,6 @@ void insert(Node*& head, int p, int x) {
     temp->next = newNode;
 }
 
-// Print list
 void printList(Node* head) {
     Node* temp = head;
 
@@ -67,7 +62,6 @@ void printList(Node* head) {
 
 int main() {
 
-    // 1 <-> 2 <-> 4 <-> 5
     Node* head = new Node(1);
     Node* second = new Node(2);
     Node* third = new Node(4);
