@@ -20,7 +20,6 @@ int search(Node* head, int key) {
 }
 
 int main() {
-    // Creating list: 10 -> 20 -> 30
     Node* n1 = new Node{10, NULL};
     Node* n2 = new Node{20, NULL};
     Node* n3 = new Node{30, NULL};
