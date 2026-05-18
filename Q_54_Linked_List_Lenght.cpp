@@ -21,7 +21,6 @@ int getLength(Node* head) {
 int main() {
     Node* head = NULL;
 
-    // manually creating list: 10 -> 20 -> 30
     Node* n1 = new Node{10, NULL};
     Node* n2 = new Node{20, NULL};
     Node* n3 = new Node{30, NULL};
