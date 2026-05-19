@@ -47,8 +47,10 @@ int main() {
 
     Node* ans = detectCycle(head);
 
-    if (ans != NULL)
+    if (ans != NULL){
         cout << ans->data;
-    else
+    }
+    else{
         cout << "No Cycle";
+    }
 }
