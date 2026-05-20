@@ -45,8 +45,10 @@ int main() {
 
     head->next->next->next->next = head->next;
 
-    if (hasCycle(head))
+    if (hasCycle(head)){
         cout << "Cycle Found";
-    else
+    }
+    else{
         cout << "No Cycle";
+    }
 }
